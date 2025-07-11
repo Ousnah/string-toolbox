@@ -7,6 +7,15 @@ Des fonctions JavaScript utiles pour manipuler des chaînes de caractères facil
 
 ---
 
+## ✨ Fonctionnalités
+
+- ✅ `capitalize` – Met la première lettre d'une chaîne en majuscule
+- ✅ `slugify` – Transforme une chaîne en format slug (ex: "Hello World!" → "hello-world")
+- ✅ `truncate` – Tronque une chaîne de caractères avec des points de suspension
+- ✅ `camelCase` – Transforme une chaîne en camelCase
+- ✅ `kebabCase` – Transforme une chaîne en kebab-case
+- ✅ `reverse` – Inverse une chaîne
+
 ## 🚀 Installation
 
 ```bash
