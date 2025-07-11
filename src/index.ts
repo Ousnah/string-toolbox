@@ -24,5 +24,21 @@ export function capitalize(str: string): string {
       .replace(/[^a-z0-9]/g, "") // supprime les caractères non alphanumériques
     return cleaned === cleaned.split("").reverse().join("")
   }
+  export function reverse(str: string): string {
+    return str.split('').reverse().join('');
+  }
   
+  export function kebabCase(str: string): string {
+    return str
+      .replace(/\s+/g, '-')
+      .replace(/[A-Z]/g, letter => '-' + letter.toLowerCase())
+      .replace(/^-/, '')
+      .toLowerCase();
+  }
+  
+  export function camelCase(str: string): string {
+    return str
+      .toLowerCase()
+      .replace(/[-_\s]+(.)?/g, (_, c) => (c ? c.toUpperCase() : ''));
+  }
   
