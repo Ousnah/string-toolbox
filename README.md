@@ -1,3 +1,5 @@
+Groupe Composé de William Agré et William Quéva
+
 # 🧰 string-toolbox
 
 Des fonctions JavaScript utiles pour manipuler des chaînes de caractères facilement.
